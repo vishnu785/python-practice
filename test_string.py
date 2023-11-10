@@ -56,10 +56,12 @@ print("Stripped text:", stripped_text)
 #output= all space removed
 
 #string and substring
-text = "Python is awesome"
+text = "Python it awesome"
 substring = "is"
 if substring in text:
     print(substring, "found in the text")
+else:
+    print(substring, "not found in the text")
 #output= find specific character
 
 
